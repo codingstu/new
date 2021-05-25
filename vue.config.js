@@ -6,7 +6,7 @@ module.exports = {
 			target: 'http://api.tianapi.com/internet/index',
 			changeOrigin: true,
 			pathRewrite: {
-			  '^/api': ''
+			  '^/api': '/api'
 			}
 		  }
 		}
