@@ -3,7 +3,7 @@ import axios from 'axios'
 
 //创建一个axios实例  
 const http = axios.create({
-    baseURL: '/api',
+    baseURL: 'http://api.tianapi.com/internet/index',
     timeout: 1000,
   });
 
